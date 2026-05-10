@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header"> Carbon Footprint </div>
+    
+    <div id="infoSection">
+        <div class="audio-card">
+            <img src="images/coFootprint.png" alt="Carbon Footprint Info" class="info-img">
+            <audio controls>
+                <source src="audio/top box coProj.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="audio-card">
+            <img src="images/goals.png" alt="Personal Goals Info" class="info-img">
+            <audio controls>
+                <source src="audio/bottom box coProj.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <div id="externalLinkBox">
+        <p>Ready to discover your footprint?</p>
+        <a href="https://www.footprintcalculator.org/home/en" target="_blank" class="calc-link">
+            Open Global Footprint Calculator
+        </a>
+        <p class="sub-text">Come back here to enter your results and receive personalized tips!</p>
+    </div>
+
+    <div id="calculatorSection">
+        <h2>Enter Your Data</h2>
+        <div class="input-container">
+            <div class="input-group">
+                <label for="food">Food</label>
+                <input type="number" id="food" placeholder="0">
+            </div>
+            <div class="input-group">
+                <label for="shel">Shelter</label>
+                <input type="number" id="shel" placeholder="0">
+            </div>
+            <div class="input-group">
+                <label for="mob">Mobility</label>
+                <input type="number" id="mob" placeholder="0">
+            </div>
+            <div class="input-group">
+                <label for="good">Goods</label>
+                <input type="number" id="good" placeholder="0">
+            </div>
+            <div class="input-group">
+                <label for="serv">Services</label>
+                <input type="number" id="serv" placeholder="0">
+            </div>
+        </div>
+        <button id="calculateBtn">Calculate Footprint</button>
+        <div id="result"></div>
+    </div>
+
+    <div id="imageDisplay" class="results-gallery"></div>
+    <img class="bottomImg" src="images/cutFootprint.png">
+    <script src="scripts.js"></script>
+</body>
+</html>

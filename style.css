@@ -1,0 +1,134 @@
+body {
+    background-color: #ffd48a;
+    margin: 0;
+}
+
+#header {
+    background-color: #753500;
+    border-radius: 5vw;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    color: #fff;
+    font-size: 4vw;
+    font-family: Impact, sans-serif;
+    letter-spacing: .15vw;
+}
+
+#infoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.audio-card {
+    background-color: #134721;
+    padding: 10px;
+    border-radius: 1vw;
+    border: 4px solid #753500;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-img {
+    width: 100%;
+    border-radius: 0.5vw;
+    margin-bottom: 15px;
+}
+
+audio {
+    width: 80%;
+}
+
+#externalLinkBox, #calculatorSection {
+    background-color: #134721;
+    width: 80vw;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 1vw;
+    text-align: center;
+    font-family: Verdana;
+    color: white;
+    border: 4px solid #753500;
+}
+
+.calc-link {
+    display: inline-block;
+    background-color: #753500;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-family: Impact, sans-serif;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin: 15px 0;
+    transition: transform 0.2s;
+}
+
+.calc-link:hover { 
+    transform: scale(1.05); 
+}
+
+.sub-text { 
+    font-size: 12px; 
+    opacity: 0.9; 
+    font-style: italic; 
+}
+
+.input-container { 
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.input-group { 
+    display: flex; 
+    flex-direction: column; 
+    margin: 10px; 
+}
+
+.input-group input { 
+    padding: 8px; 
+    border-radius: 5px; 
+    border: none; 
+    width: 100px; 
+}
+
+#calculateBtn {
+    background-color: #753500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: Impact;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.results-gallery { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 30px; 
+}
+
+.result-card {
+    text-align: center;
+    width: 80vw;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 1.5vw;
+}
+
+.result-img, .bottomImg {
+    width: 80vw;
+    border-radius: 1vw;
+    border: 4px solid #753500;
+    display: block;
+    margin: 0 auto;
+}
